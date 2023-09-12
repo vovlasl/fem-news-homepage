@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script type="module" src="/main.js"></script>
+    <header>
+      <div class="nav-container">
+        <a href="#"><img src="./resources/images/logo.svg"></a>
+        <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false">
+          <img class="icon-menu" src="./resources/images/icon-menu.svg" alt="" style="display: block;" aria-hidden="true">
+          <img class="icon-menu-close" src="./resources/images/icon-menu-close.svg" style="display: none;" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="navigation" id="navigation">
+          <ul role="list" class="nav-list text-neutral-300 fs-300 fw-regular">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="two-columns">
+            <div class="big-box">
+              <img src="./resources/images/image-web-3-mobile.jpg" alt="">
+              <h1 class="fs-primary-heading fw-bold text-neutral-900">The Bright Future of Web 3.0?</h1>
+              <div>
+                <p class="fs-body fw-regular text-neutral-300">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                  But is it really fulfilling its promise?</p>
+                <button class="button fs-button bg-primary-200 text-neutral-100 fw-semi-bold">READ MORE</button>
+              </div>
+            </div>
+            <div class="small-box bg-neutral-900">
+              <h2 class="fs-secondary-heading fw-semi-bold text-primary-100 small-box-item">New</h2>
+              <!-- <div class="rows"> -->
+                <div class="small-box-item">
+                  <h3 class="fs-500 fw-bold text-neutral-100"><a href="#">Hydrogen VS Electric Cars</a></h3>
+                  <p class="fs-body fw-regular text-neutral-200">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <hr class="small-box-item">
+                <div class="small-box-item">
+                  <h3 class="fs-500 fw-bold text-neutral-100"><a href="#">The Downsides of AI Artis try</a></h3>
+                  <p class="fs-body fw-regular text-neutral-200">What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <hr class="small-box-item">
+                <div class="small-box-item">
+                  <h3 class="fs-500 fw-bold text-neutral-100"><a href="#">Is VC Funding Drying Up?</a></h3>
+                  <p class="fs-body fw-regular text-neutral-200">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+              <!-- </div> -->
+            </div>
+            <div class="three-columns grid-col-span-3">
+              <div class="numbered-column">
+                <img src="resources/images/image-retro-pcs.jpg" height="130px">
+                <div>
+                  <h2 class="fs-700 fw-semi-bold text-neutral-200">01</h2>
+                  <h4 class="fs-500 fw-bold text-neutral-900"><a href="#">Reviving Retro PCs</a></h4>
+                  <p class="fs-body fw-regular text-neutral-300">What happens when old PCs are given modern upgrades?</p>
+                </div>
+              </div>
+              <div class="numbered-column">
+                <img src="resources/images/image-top-laptops.jpg" height="130px">
+                <div>
+                  <h2 class="fs-700 fw-semi-bold text-neutral-200">02</h2>
+                  <h4 class="fs-500 fw-bold text-neutral-900"><a href="#">Top 10 Laptops of 2022</a></h4>
+                  <p class="fs-body fw-regular text-neutral-300">Our best picks for various needs and budgets.</p>
+                </div>
+              </div>
+              <div class="numbered-column">
+                <img src="resources/images/image-gaming-growth.jpg" height="130px">
+                <div>
+                  <h2 class="fs-700 fw-semi-bold text-neutral-200">03</h2>
+                  <h4 class="fs-500 fw-bold text-neutral-900"><a href="#">The Growth of Gaming</a></h4>
+                  <p class="fs-body fw-regular text-neutral-300">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Loukas Vovlas</a>.
+    </div>
+  </body>
+</html>
+
