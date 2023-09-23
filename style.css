@@ -314,7 +314,6 @@ border: 0 !important;
   --max-width: 21.4rem;
   --padding: 1rem;
 
-  width: min(var(--max-width), 100%);
   margin-inline: auto;
 }
 
@@ -402,6 +401,7 @@ hr {
   .three-columns {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      grid-column: 1 / span 2;
   }
 
 
