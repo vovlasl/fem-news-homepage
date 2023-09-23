@@ -410,8 +410,15 @@ hr {
 /* General Styliing */
 
 body {
+  display: flex;
+  flex-direction: column;
+
   font-size: var(--fs-body);
   font-family: var(--ff-body);
+}
+
+main {
+  margin-bottom: auto;
 }
 
 p {
